@@ -2,10 +2,11 @@
 
 Here's a Python cheat sheet that covers some of the most commonly used syntax and constructs in the language:
 
-### Basic syntax
+### Intro:
 * Python uses whitespace indentation instead of curly braces to delimit blocks of code.
 * Use # to comment out a line or block of code.
-### Variables and data types
+
+### Variables and data types:
 * Use = to assign a value to a variable.
 * Python is dynamically typed, so you don't need to specify the data type of a variable explicitly.
 * Basic data types include integers, floats, strings, booleans, and None.
@@ -33,7 +34,7 @@ In the above example,
 We can use these variables in our Python program to perform operations or make decisions based on their values.
 
 
-### Comments
+### How to comments in code:
 ```python
 # This is a single-line comment in Python
 age = 27 # We can also add comments after a line of code
@@ -50,6 +51,25 @@ result = 10 + 20 # Add 10 to 20 and assign the result to a variable named result
 
 ```
 In the above example, we use both single-line and multi-line comments to add notes to our code. We can use single-line comments by starting a line with the # symbol. We can also add comments after a line of code by using the # symbol at the end of the line. To add multi-line comments, we use triple quotes (""") to start and end the comment. We can use comments to explain what our code does or to add reminders to ourselves or other developers. In the last line of the example, we use a comment to explain what the code does.
+
+
+### Taking Input from User:
+```python
+# Ask the user to enter their name and age
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+
+# Print a message to the user
+print("Hello, " + name + "! You are " + str(age) + " years old.")
+
+# Ask the user to enter a number and perform a calculation
+num = int(input("Enter a number: "))
+result = num * 10
+print("The result is: " + str(result))
+
+```
+In the above example, we use the input() function to prompt the user to enter their name, age, and a number. Since the input() function always returns data as a string, we convert the age and the number to integers using the int() function. We then use these variables to print a message to the user and perform a simple calculation. By using the input() function, we can make our Python programs more interactive and dynamic.
+
 
 
 ### Operators
