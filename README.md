@@ -1,4 +1,4 @@
-# bootcamp-python
+# Python Cheat Sheet
 
 Here's a Python cheat sheet that covers some of the most commonly used syntax and constructs in the language:
 
