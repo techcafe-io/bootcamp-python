@@ -183,6 +183,78 @@ print(not x == y)        # Output: True
 * elif statement: allows you to check multiple conditions in sequence.
 * while loop: repeatedly executes a block of code while a certain condition is true.
 * for loop: iterates over a sequence (such as a list or tuple) and executes a block of code for each item.
+
+#### Here's an example of an if statement in Python:
+```python
+x = 10
+
+if x > 0:
+    print("x is positive")
+
+```
+In this example, we have a variable x with a value of 10. The if statement checks if x is greater than 0, and if so, it executes the code inside the block (in this case, it prints "x is positive").
+
+####  here's an example of an else statement:
+
+```python
+x = -5
+
+if x > 0:
+    print("x is positive")
+else:
+    print("x is not positive")
+
+```
+In this example, we have the same variable x, but this time it has a value of -5. The if statement checks if x is greater than 0, and if so, it executes the code inside the first block (prints "x is positive"). If x is not greater than 0, it executes the code inside the else block instead (prints "x is not positive").
+
+#### Finally, here's an example of an elif (short for "else if") statement:
+
+```python
+x = 0
+
+if x > 0:
+    print("x is positive")
+elif x < 0:
+    print("x is negative")
+else:
+    print("x is zero")
+
+```
+In this example, we have the same variable x, but this time it has a value of 0. The if statement checks if x is greater than 0, and if so, it executes the code inside the first block (prints "x is positive"). If x is not greater than 0, it moves on to the elif statement and checks if x is less than 0. If x is less than 0, it executes the code inside the elif block (prints "x is negative"). If neither the if nor elif conditions are true, it executes the code inside the else block instead (prints "x is zero").
+
+#### Here's an example of a for loop in Python with the result printed in the output:
+```python
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+
+# Output:
+# apple
+# banana
+# cherry
+
+```
+In this example, we have a list of fruits containing three elements: "apple", "banana", and "cherry". The for loop iterates over each element in the list and assigns it to the variable fruit. Then, the print() function is called inside the loop with fruit as the argument, so each fruit in the list is printed to the console.
+
+
+#### here's an example of a while loop in Python with the output:
+```python
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+```
+In this example, we initialize a variable i with a value of 0. Then, we use a while loop to print the value of i and increment it by 1 until i is no longer less than 5. This is because the while loop executes the code inside the block as long as the condition i < 5 is true. On each iteration of the loop, the current value of i is printed to the console using the print() function. Then, the value of i is incremented by 1 using the += operator. This process continues until i is equal to 5, at which point the condition i < 5 is false and the loop terminates.
+
+
 ### Lists
 * A list is a collection of ordered items, enclosed in square brackets: my_list = [1, 2, 3]
 * Use indexing to access individual items in a list: my_list[0] returns 1
