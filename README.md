@@ -10,27 +10,41 @@ Here's a Python cheat sheet that covers some of the most commonly used syntax an
 * Use = to assign a value to a variable.
 * Python is dynamically typed, so you don't need to specify the data type of a variable explicitly.
 * Basic data types include integers, floats, strings, booleans, and None.
-* Use type() to check the data type of a variable.
+
 
 ```python
-age = 27
-weight = 68.5
-name = "Alice"
-is_student = True
+# This is an integer variable
+x = 5
 
-# Checking data types of variables
-print(type(age))        # Output: <class 'int'>
-print(type(weight))     # Output: <class 'float'>
-print(type(name))       # Output: <class 'str'>
-print(type(is_student)) # Output: <class 'bool'>
-print(type(nothing))    # Output: <class 'NoneType'>
+# This is a float variable
+y = 3.14
+
+# This is a boolean variable
+z = True
+
+# This is a string variable
+name = "John"
+
+# This is a list variable
+fruits = ["apple", "banana", "orange"]
+
+# This is a tuple variable
+coordinates = (2.5, 3.0)
+
+# This is a dictionary variable
+person = {"name": "John", "age": 30, "city": "New York"}
+
+# Print the values of the variables
+print(x)  # Output: 5
+print(y)  # Output: 3.14
+print(z)  # Output: True
+print(name)  # Output: John
+print(fruits)  # Output: ['apple', 'banana', 'orange']
+print(coordinates)  # Output: (2.5, 3.0)
+print(person)  # Output: {'name': 'John', 'age': 30, 'city': 'New York'}
+
 ```
-In the above example,
 
-* age is an integer variable representing the age of a person.
-* weight is a float variable representing the weight of a person.
-* name is a string variable representing the name of a person.
-* is_student is a boolean variable representing whether a person is a student or not.
 We can use these variables in our Python program to perform operations or make decisions based on their values.
 
 
